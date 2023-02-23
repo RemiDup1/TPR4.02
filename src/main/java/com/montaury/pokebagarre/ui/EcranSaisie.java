@@ -34,11 +34,11 @@ public class EcranSaisie {
     var root = new VBox();
     root.setAlignment(Pos.BASELINE_CENTER);
     root.setSpacing(5);
-    var inviteNomPokemon1 = new Label("Nom du premier Pokémon");
+    var inviteNomPokemon1 = new Label("Nom du 1er Pokemon");
     nomPokemon1 = new TextField();
     nomPokemon1.setId("nomPokemon1");
     inviteNomPokemon1.setLabelFor(nomPokemon1);
-    var inviteNomPokemon2 = new Label("Nom du second Pokémon");
+    var inviteNomPokemon2 = new Label("Nom du 2nd Pokemon");
     nomPokemon2 = new TextField();
     nomPokemon2.setId("nomPokemon2");
     inviteNomPokemon2.setLabelFor(nomPokemon2);
